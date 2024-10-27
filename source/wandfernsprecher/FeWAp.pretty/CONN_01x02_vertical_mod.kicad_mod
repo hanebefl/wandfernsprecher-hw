@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 3.5 0)
+		(at 0 3.7 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "808ce3a2-5d64-4aab-9e89-6869c04b8e58")
@@ -65,8 +65,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -6.75 -2.5)
-		(end 6.75 2.5)
+		(start -6.75 -2.9)
+		(end 6.75 2.9)
 		(stroke
 			(width 0.12)
 			(type default)
@@ -77,8 +77,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -6.75 -2.5) (xy 6.75 -2.5) (xy 6.75 2.5) (xy 6.75 2.5) (xy 6.75 2.5) (xy -6.75 2.5) (xy -6.75 2.5)
-			(xy -6.75 2.5)
+			(xy -6.75 -2.9) (xy 6.75 -2.9) (xy 6.75 2.9) (xy -6.75 2.9)
 		)
 		(stroke
 			(width 0.12)
@@ -87,6 +86,46 @@
 		(fill none)
 		(layer "F.CrtYd")
 		(uuid "dff88ff7-f593-49bd-905b-8c5c1d253cc9")
+	)
+	(fp_line
+		(start -3.85 -0.1)
+		(end -3.65 0.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "80582711-8974-48c4-b32f-c7e081bce44b")
+	)
+	(fp_line
+		(start -3.65 -0.1)
+		(end -3.85 0.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "5766029d-9360-44c5-acc3-f2952c370d55")
+	)
+	(fp_line
+		(start 3.65 -0.1)
+		(end 3.85 0.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "3d80b68b-4283-47f7-ad4a-deb5007e45a5")
+	)
+	(fp_line
+		(start 3.85 -0.1)
+		(end 3.65 0.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "User.3")
+		(uuid "8c61ad5a-fe99-4546-ac5f-7ccef0c7b121")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 3.5 0)
@@ -101,35 +140,57 @@
 		)
 	)
 	(pad "1" thru_hole oval
-		(at -4.899049 -1.149049 135)
-		(size 2.75 2)
-		(drill oval 1.75 1)
+		(at -5.15 -1.4 135)
+		(size 3 2)
+		(drill oval 2 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "2e68d75b-ea56-4da5-aac3-ff5793595f27")
+		(uuid "6e34d7ef-0ada-48e6-b47f-068d46d5b2d4")
 	)
 	(pad "1" thru_hole oval
-		(at -2.600951 1.149049 135)
-		(size 2.75 2)
-		(drill oval 1.75 1)
+		(at -2.35 1.4 135)
+		(size 3 2)
+		(drill oval 2 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "763c4297-9612-4934-9843-f181140fb3fa")
+		(uuid "75f8d4d2-abbd-4245-b813-690b80d913a4")
 	)
 	(pad "2" thru_hole oval
-		(at 2.600951 -1.149049 135)
-		(size 2.75 2)
-		(drill oval 1.75 1)
+		(at 2.35 -1.4 135)
+		(size 3 2)
+		(drill oval 2 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "f0ff29f7-adbd-471c-bbcd-171ec712c6be")
+		(uuid "905efae5-fec8-4de3-bd5d-b2e1395c7e36")
 	)
 	(pad "2" thru_hole oval
-		(at 4.899049 1.149049 135)
-		(size 2.75 2)
-		(drill oval 1.75 1)
+		(at 5.15 1.4 135)
+		(size 3 2)
+		(drill oval 2 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "a602e86c-4fb9-4a24-afcb-eef3dcf1758c")
+		(uuid "fd75d16b-8c9a-4539-aaba-ff7d947f438a")
+	)
+	(model "${KIPRJMOD}/../../assets/3D models/pin_mod.step"
+		(offset
+			(xyz -3.75 0 -1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/../../assets/3D models/pin_mod.step"
+		(offset
+			(xyz 3.75 0 -1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )
