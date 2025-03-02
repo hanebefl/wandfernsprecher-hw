@@ -9,6 +9,7 @@
 		(date "01.11.2024")
 		(rev "${revision}")
 		(company "author: ${author}")
+		(comment 1 "${license}")
 	)
 	(lib_symbols
 		(symbol "Battery_Management:BQ24090DGQ"

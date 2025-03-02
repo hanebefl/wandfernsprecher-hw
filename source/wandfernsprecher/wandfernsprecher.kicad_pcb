@@ -11,7 +11,8 @@
 		(title "${title}")
 		(date "2024-11-01")
 		(rev "${revision}")
-		(comment 1 "author: ${author}")
+		(company "author: ${author}")
+		(comment 1 "${license}")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -149,7 +150,7 @@
 		)
 	)
 	(property "author" "hanebefl")
-	(property "pinout_rev" "0.0.1")
+	(property "license" "Copyright (c) 2025 hanebefl (https://github.com/hanebefl)")
 	(property "revision" "0.1.0")
 	(property "title" "Wandfernsprecher")
 	(net 0 "")
