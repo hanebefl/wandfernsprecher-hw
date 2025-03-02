@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "e23ba7c8-90a8-4e17-a923-224deeb382c9")
 	(paper "A4")
+	(title_block
+		(title "${title}")
+		(date "01.11.2024")
+		(rev "${revision}")
+		(company "author: ${author}")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers hide)
@@ -3299,7 +3305,6 @@
 	)
 	(label "HV-IN"
 		(at 102.87 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3310,7 +3315,6 @@
 	)
 	(label "~{HV_EN}"
 		(at 74.93 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3321,7 +3325,6 @@
 	)
 	(label "HV-FB"
 		(at 125.73 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3332,7 +3335,6 @@
 	)
 	(label "HV_{C}'"
 		(at 110.49 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3343,7 +3345,6 @@
 	)
 	(label "HV-C"
 		(at 110.49 96.52 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3355,7 +3356,6 @@
 	(hierarchical_label "+VDC"
 		(shape input)
 		(at 55.88 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3367,7 +3367,6 @@
 	(hierarchical_label "BELL_B"
 		(shape input)
 		(at 210.82 129.54 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3379,7 +3378,6 @@
 	(hierarchical_label "HV_EN"
 		(shape input)
 		(at 55.88 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3391,7 +3389,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 46.99 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3403,7 +3400,6 @@
 	(hierarchical_label "BELL_A"
 		(shape input)
 		(at 210.82 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

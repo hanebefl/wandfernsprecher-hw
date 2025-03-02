@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "15847cc2-5f1f-4755-b935-d9887c7a04b8")
 	(paper "A4")
+	(title_block
+		(title "${title}")
+		(date "01.11.2024")
+		(rev "${revision}")
+		(company "author: ${author}")
+	)
 	(lib_symbols
 		(symbol "Battery_Management:BQ24090DGQ"
 			(exclude_from_sim no)
@@ -3649,7 +3655,6 @@
 	)
 	(label "BQ-~{CHG}"
 		(at 118.11 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3660,7 +3665,6 @@
 	)
 	(label "+BATT"
 		(at 36.83 100.33 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3671,7 +3675,6 @@
 	)
 	(label "+BATT"
 		(at 120.65 99.06 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3682,7 +3685,6 @@
 	)
 	(label "ISET2"
 		(at 83.82 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3693,7 +3695,6 @@
 	)
 	(label "ISET'"
 		(at 57.15 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3704,7 +3705,6 @@
 	)
 	(label "ISET''"
 		(at 66.04 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3715,7 +3715,6 @@
 	)
 	(label "+BATT"
 		(at 182.88 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3726,7 +3725,6 @@
 	)
 	(label "Vin'"
 		(at 149.86 88.9 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3737,7 +3735,6 @@
 	)
 	(label "ISET"
 		(at 83.82 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3748,7 +3745,6 @@
 	)
 	(label "TS"
 		(at 119.38 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3759,7 +3755,6 @@
 	)
 	(label "BQ-~{PG}"
 		(at 118.11 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3770,7 +3765,6 @@
 	)
 	(label "Vin'"
 		(at 90.17 101.6 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3782,7 +3776,6 @@
 	(hierarchical_label "+BATT"
 		(shape output)
 		(at 120.65 90.17 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3794,7 +3787,6 @@
 	(hierarchical_label "4.0V"
 		(shape output)
 		(at 210.82 88.9 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3806,7 +3798,6 @@
 	(hierarchical_label "+3.3V"
 		(shape output)
 		(at 264.16 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3818,7 +3809,6 @@
 	(hierarchical_label "VBUS"
 		(shape input)
 		(at 35.56 34.29 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6620,22 +6610,22 @@
 			)
 		)
 		(pin "6"
-			(uuid "1b4c8b03-5e29-4b77-89ad-52191eb82b89")
+			(uuid "1b4c8b03-5e29-4b77-89ad-52191eb82b8b")
 		)
 		(pin "5"
-			(uuid "797f3a76-4f0e-486d-9861-603cc9fa137e")
+			(uuid "797f3a76-4f0e-486d-9861-603cc9fa137f")
 		)
 		(pin "2"
-			(uuid "ac0f3992-30ed-4938-8754-d45c116a1b13")
+			(uuid "ac0f3992-30ed-4938-8754-d45c116a1b15")
 		)
 		(pin "3"
-			(uuid "a975dbce-217d-4130-ac7f-38be9ea0709b")
+			(uuid "a975dbce-217d-4130-ac7f-38be9ea0709c")
 		)
 		(pin "1"
-			(uuid "ecf8c225-362c-403d-b9df-0c3764455401")
+			(uuid "ecf8c225-362c-403d-b9df-0c3764455403")
 		)
 		(pin "4"
-			(uuid "b76853eb-7a1c-48e8-bb23-8cce6984ccd6")
+			(uuid "b76853eb-7a1c-48e8-bb23-8cce6984ccd7")
 		)
 		(instances
 			(project ""
@@ -6704,19 +6694,19 @@
 			(uuid "82dd23ce-4f35-4366-9061-72070ce2582c")
 		)
 		(pin "5"
-			(uuid "797f3a76-4f0e-486d-9861-603cc9fa137e")
+			(uuid "797f3a76-4f0e-486d-9861-603cc9fa1380")
 		)
 		(pin "2"
 			(uuid "a5c7b5e1-2b62-45a4-8ea7-61d4abe8b798")
 		)
 		(pin "3"
-			(uuid "a975dbce-217d-4130-ac7f-38be9ea0709b")
+			(uuid "a975dbce-217d-4130-ac7f-38be9ea0709d")
 		)
 		(pin "1"
 			(uuid "3c10b6e1-843b-4f44-9f5c-f0a220f5909d")
 		)
 		(pin "4"
-			(uuid "b76853eb-7a1c-48e8-bb23-8cce6984ccd6")
+			(uuid "b76853eb-7a1c-48e8-bb23-8cce6984ccd8")
 		)
 		(instances
 			(project "wandfernsprecher"

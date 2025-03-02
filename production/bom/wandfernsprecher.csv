@@ -3,7 +3,7 @@
 "C17","Capacitor_SMD:C_0603_1608Metric","1","100n",""
 "C18,C20,C6,C7","Capacitor_SMD:C_0603_1608Metric","4","1µF",""
 "C19,C8","Capacitor_SMD:C_0603_1608Metric","2","10µF",""
-"D4","Diode_SMD:D_SOD-123","1","5,1V",""
+"D4","Diode_SMD:D_SOD-123","1","5.1V",""
 "ES1","FeWAp:CONN_01x04_vertical_mod","1","Erdschalter",""
 "GS1","FeWAp:Gabelschalter","1","Gabelschalter",""
 "J1","FeWAp:CONN_01x04_vertical_mod","1","Hörer",""

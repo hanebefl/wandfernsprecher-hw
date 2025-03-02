@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "${title}")
+		(date "01.11.2024")
 		(rev "${revision}")
 		(company "author: ${author}")
 	)
@@ -6408,7 +6409,7 @@
 		)
 		(uuid "b9aa56fa-f3f6-4631-af83-b9c5b3ab5c35")
 	)
-	(text "345mA peak @ 3,3V"
+	(text "345mA peak @ 3.3V"
 		(exclude_from_sim no)
 		(at 120.65 73.66 0)
 		(effects
@@ -6419,7 +6420,7 @@
 		)
 		(uuid "d813c61b-fc54-4ff5-85a3-e89dc1200eb1")
 	)
-	(text "use ADC_ATTEN_DB_11\nADC resolution: 1,3mV"
+	(text "use ADC_ATTEN_DB_11\nADC resolution: 1.3mV"
 		(exclude_from_sim no)
 		(at 63.5 91.44 0)
 		(effects
@@ -6432,7 +6433,6 @@
 	)
 	(label "ADC_EN"
 		(at 88.9 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6443,7 +6443,6 @@
 	)
 	(label "M+"
 		(at 261.62 151.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6454,7 +6453,6 @@
 	)
 	(label "plug.D-"
 		(at 72.3251 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6465,7 +6463,6 @@
 	)
 	(label "IO9"
 		(at 153.67 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6476,7 +6473,6 @@
 	)
 	(label "~{RESET}"
 		(at 87.63 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6487,7 +6483,6 @@
 	)
 	(label "IO9"
 		(at 196.85 96.52 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6498,7 +6493,6 @@
 	)
 	(label "S+"
 		(at 261.62 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6509,7 +6503,6 @@
 	)
 	(label "NS-nsa"
 		(at 245.11 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6520,7 +6513,6 @@
 	)
 	(label "S-"
 		(at 261.62 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6531,7 +6523,6 @@
 	)
 	(label "M-"
 		(at 261.62 153.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6542,7 +6533,6 @@
 	)
 	(label "NS-nsi"
 		(at 245.11 26.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6553,7 +6543,6 @@
 	)
 	(label "plug.D+"
 		(at 72.39 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6564,7 +6553,6 @@
 	)
 	(label "ADC"
 		(at 88.9 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6575,7 +6563,6 @@
 	)
 	(label "GS"
 		(at 234.95 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7760,7 +7747,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5,1V"
+		(property "Value" "5.1V"
 			(at 212.09 149.8599 90)
 			(effects
 				(font

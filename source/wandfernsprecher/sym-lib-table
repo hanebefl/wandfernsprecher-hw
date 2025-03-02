@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "FeWAp")(type "KiCad")(uri "${KIPRJMOD}/FeWAp.kicad_sym")(options "")(descr ""))
-  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/../library/espressif/symbols/Espressif.kicad_sym")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/../../library/espressif/symbols/Espressif.kicad_sym")(options "")(descr ""))
 )
