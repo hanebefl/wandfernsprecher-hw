@@ -151,7 +151,7 @@
 	)
 	(property "author" "hanebefl")
 	(property "license" "Copyright (c) 2025 hanebefl (https://github.com/hanebefl)")
-	(property "revision" "0.1.0")
+	(property "revision" "0.1.1")
 	(property "title" "Wandfernsprecher")
 	(net 0 "")
 	(net 1 "+BATT")
@@ -14086,7 +14086,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R35"
-			(at -3.075 0 360)
+			(at -3.075 0 0)
 			(layer "F.SilkS")
 			(uuid "4d070365-0cf9-4fcf-8442-83ee91717b73")
 			(effects
@@ -14097,7 +14097,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "68ade2d9-c292-42c6-aeef-e497141c94b5")
 			(effects
@@ -14252,7 +14252,7 @@
 			(uuid "c0d4a8ca-d964-4954-9e47-9785895f7fde")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "87ad6b91-749e-4e21-82d5-08932985ae97")
 			(effects
